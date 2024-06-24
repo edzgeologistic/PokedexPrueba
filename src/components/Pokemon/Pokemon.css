@@ -1,0 +1,40 @@
+.pokemon {
+    margin: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 1px solid black;
+    padding-top: 2rem;
+}
+
+.pokemon h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pokemon-img {
+    text-align: center;
+}
+
+.pokemon-info {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem;
+    border-top: 1px solid black;
+    gap: 0.5rem;
+}
+
+.pokemon-info p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.pokemon-info > p > span {
+    font-weight: normal;
+}
